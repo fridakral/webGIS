@@ -15,9 +15,20 @@ body {
     background-color: #4CAF50;
     color: white;
     height: 2rem;
+
   }
 
   .page {
+
+    .popup{
+      position: absolute;
+      height: 40%;
+      width: 40%;
+      top: 30%;
+      left: 30%;
+      background-color: #680707;
+    }
+
     flex-grow: 1;
     height: 100%;
     display: flex;
@@ -31,16 +42,17 @@ body {
       justify-content: start;
     }
 
-    .main {
+    .map-container {
       flex-grow: 1;
       display: flex;
       flex-direction: column;
 
-      .content {
+      .map {
+        background-color: aqua;
         flex-grow: 1;
       }
 
-      .footer {
+      .status-bar {
         height: 2rem;
         background-color: #4CAF50;
       }

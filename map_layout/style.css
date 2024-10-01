@@ -25,10 +25,11 @@ body .page {
 }
 body .page .popup {
   position: absolute;
-  height: 20%;
-  width: 30%;
-  top: 40%;
-  background-color: black;
+  height: 40%;
+  width: 40%;
+  top: 30%;
+  left: 30%;
+  background-color: #680707;
 }
 body .page .sidenav {
   background-color: #f4f4f4;

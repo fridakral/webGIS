@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+body .header {
+  height: 4rem;
+  background-color: #4CAF50;
+  display: flex;
+  flex-direction: row;
+}
+body .header h1 {
+  width: 10rem;
+}
+body .header .menu-bar {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+body .header .menu-bar a {
+  padding: 1rem 1rem;
+}
+body .product-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: black solid 1px;
+  padding: 1rem 1rem;
+}
+body .product-container .left-product-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+body .product-container .left-product-column .img-container {
+  display: flex;
+  justify-content: center;
+}
+body .product-container .left-product-column .base-data-container {
+  display: flex;
+  flex-direction: column;
+}
+body .product-container .right-product-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body .product-container .right-product-column .important-data-container {
+  display: flex;
+  flex-direction: column;
+}
+body .product-container .right-product-column .description {
+  background-color: rgba(76, 175, 80, 0.43);
+  padding: 20px;
+}
+body .footer {
+  height: 4rem;
+  background-color: #4CAF50;
+}
+
+/*# sourceMappingURL=style.css.map */
