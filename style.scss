@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    height: 2rem;
+  }
+
+  .page {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .sidenav {
+      background-color: #f4f4f4;
+      width: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+    }
+
+    .main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+
+      .content {
+        flex-grow: 1;
+      }
+
+      .footer {
+        height: 2rem;
+        background-color: #4CAF50;
+      }
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
